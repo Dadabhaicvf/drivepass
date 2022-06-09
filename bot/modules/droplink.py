@@ -26,8 +26,7 @@ def link_handler(update, context):
           baashax = droplink_bypass(link)
           links = baashax.get('url')
           deleteMessage(context.bot, msg)
-          bx = sendMessage(f"𝙄'𝙫𝙚 𝙎𝙚𝙣𝙙 𝙩𝙝𝙚 𝘽𝙮𝙥𝙖𝙨𝙨𝙚𝙙 𝙇𝙞𝙣𝙠 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙋𝙈.", context.bot, update)
-          sendPrivate(f'𝗚𝗶𝘃𝗲𝗻 𝗟𝗶𝗻𝗸: <code>{link}</code>\n\n𝗕𝘆𝗽𝗮𝘀𝘀𝗲𝗱 𝗟𝗶𝗻𝗸: <code>{links}</code>', context.bot, update)
+          sendMessage(f"𝗚𝗶𝘃𝗲𝗻 𝗟𝗶𝗻𝗸: <code>{link}</code>\n\n𝗕𝘆𝗽𝗮𝘀𝘀𝗲𝗱 𝗟𝗶𝗻𝗸: <code>{links}</code>", context.bot, update)
       else:
           sendMessage('𝗦𝗲𝗻𝗱 𝗗𝗿𝗼𝗽𝗹𝗶𝗻𝗸 𝗟𝗶𝗻𝗸𝘀 𝗮𝗹𝗼𝗻𝗴 𝘄𝗶𝘁𝗵 𝗰𝗼𝗺𝗺𝗮𝗻𝗱.', context.bot, update)
     except DDLException as e:
