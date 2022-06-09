@@ -11,6 +11,7 @@ from bot.helper.telegram_helper.message_utils import *
 from .helper.telegram_helper.filters import CustomFilters
 from .modules import authorize, list
 from bot.modules import scrape
+from bot.modules import droplink
 
 
 def start(update, context):
