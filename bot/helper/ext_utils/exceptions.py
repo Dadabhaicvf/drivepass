@@ -1,0 +1,2 @@
+class DDLException(Exception):
+    pass
