@@ -8,5 +8,6 @@ telegraph
 pyshorteners
 pyrogram
 bs4
+lxml
 
 cloudscraper==1.2.58
