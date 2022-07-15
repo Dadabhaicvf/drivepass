@@ -126,9 +126,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
-                                 title = 'Prime Drive Search Result',
-                                 author_name='𝗣𝗿𝗶𝗺𝗲 𝗕𝗼𝘁𝘀',
-                                 author_url='https://t.me/Prime_Botz',
+                                 title = 'DadaXClouds Drive Search Result',
+                                 author_name='𝗗𝗮𝗱𝗮𝗫𝗖𝗹𝗼𝘂𝗱𝘀',
+                                 author_url='https://t.me/DadaXClouds',
                                  html_content=content)
         return
 
