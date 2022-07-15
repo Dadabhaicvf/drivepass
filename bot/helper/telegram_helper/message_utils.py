@@ -45,7 +45,7 @@ def sendPrivate(text: str, bot, update: Update, reply_markup: InlineKeyboardMark
             uname = f'<a href="tg://user?id={update.message.from_user.id}">{update.message.from_user.first_name}</a>'
             keyboard = [
             [InlineKeyboardButton("Start Me", url = "http://t.me/PrimeXSearchBoT?start=start")],
-            [InlineKeyboardButton("Join Here", url = "https://t.me/Prime_BotZ")]]
+            [InlineKeyboardButton("Join Here", url = "https://t.me/DadaXClouds")]]
             sendMarkup(f"<b>ʜᴇʏ {uname}, ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴛᴀʀᴛᴇᴅ ᴍᴇ ɪɴ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ) ʏᴇᴛ👀.</b>\n\n𝐅𝐑𝐎𝐌 𝐍𝐎𝐖 𝐎𝐍 𝐈 𝐖𝐈𝐋𝐋 𝐆𝐈𝐕𝐄 𝐋𝐈𝐍𝐊 𝐈𝐍 𝐏𝐌 (𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐂𝐇𝐀𝐓) 𝐎𝐍𝐋𝐘 😁", bot, update, reply_markup=InlineKeyboardMarkup(keyboard))
             return        
 
