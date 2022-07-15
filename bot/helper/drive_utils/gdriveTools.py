@@ -183,9 +183,9 @@ class GoogleDriveHelper:
 
         for content in self.telegraph_content :
             self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                    title = 'Prime Drive Search Result',
-                                                    author_name='𝗣𝗿𝗶𝗺𝗲 𝗕𝗼𝘁𝘀',
-                                                    author_url='https://t.me/Prime_Botz',
+                                                    title = 'DadaXClouds Drive Search Result',
+                                                    author_name='𝗗𝗮𝗱𝗮𝗫𝗖𝗹𝗼𝘂𝗱𝘀',
+                                                    author_url='https://t.me/DadaXClouds',
                                                     html_content=content
                                                     )['path'])
 
