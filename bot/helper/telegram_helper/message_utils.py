@@ -46,7 +46,7 @@ def sendPrivate(text: str, bot, update: Update, reply_markup: InlineKeyboardMark
             keyboard = [
             [InlineKeyboardButton("Start Me", url = "http://t.me/DadaDrive_Bot?start=start")],
             [InlineKeyboardButton("Join Here", url = "https://t.me/DadaXClouds")]]
-            sendMarkup(f"<b>ʜᴇʏ {uname}, ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴛᴀʀᴛᴇᴅ ᴍᴇ ɪɴ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ) ʏᴇᴛ👀.</b>\n\n𝐅𝐑𝐎𝐌 𝐍𝐎𝐖 𝐎𝐍 𝐈 𝐖𝐈𝐋𝐋 𝐆𝐈𝐕𝐄 𝐋𝐈𝐍𝐊 𝐈𝐍 𝐏𝐌 (𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐂𝐇𝐀𝐓) 𝐎𝐍𝐋𝐘 😁", bot, update, reply_markup=InlineKeyboardMarkup(keyboard))
+            sendMarkup(f"<b>𝗛𝗲𝘆 {uname}, 𝗬𝗼𝘂 𝗛𝗮𝘃𝗲𝗻'𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗠𝗲 !   𝗙𝗿𝗼𝗺 𝗡𝗼𝘄 𝗢𝗻 𝗜 𝗪𝗲𝗹𝗹 𝗚𝗶𝘃𝗲 𝗟𝗶𝗻𝗸 𝗜𝗻 𝗬𝗼𝘂𝗿 𝗣𝗠 𝗢𝗻𝗹𝘆! 😊", bot, update, reply_markup=InlineKeyboardMarkup(keyboard))
             return        
 
 def editMessage(text: str, message: Message, reply_markup=None):
