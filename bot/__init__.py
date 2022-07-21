@@ -55,9 +55,9 @@ except:
 try:
     IMAGE_URL = getConfig('IMAGE_URL')
     if len(IMAGE_URL) == 0:
-        IMAGE_URL = 'https://telegra.ph/file/40c1b207eb67593e21310.jpg'
+        IMAGE_URL = 'https://telegra.ph/file/86ab5b2202451a43fcbfc.jpg'
 except KeyError:
-    IMAGE_URL = 'https://telegra.ph/file/40c1b207eb67593e21310.jpg'
+    IMAGE_URL = 'https://telegra.ph/file/86ab5b2202451a43fcbfc.jpg'
     
 try:
     BOT_TOKEN = getConfig('BOT_TOKEN')
